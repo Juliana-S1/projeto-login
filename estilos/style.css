@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*Versão Mobile First*/
+
+/*Paleta de Cores
+Verde: #49a09d
+Lilas: #5f2c82
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #5f2c82;
+    height: 100%;    
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+section#login{
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+#imagem{
+    height: 200px;
+    background: url(../imagens/metal.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    display: block;
+}
+#formulario{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+p{
+  margin: 0 10px 5px 10px;
+  font-size: 14px;
+}
+div.campo{
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+span{
+    color: white;
+    height: 40px;
+
+}
+div.campo input{
+    background-color: #94cfcd;
+    width: calc(100% - 30px);
+    font-size: 1em;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+}
+input[type=submit] {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #3a706e;
+}
+.botao{
+    display: block;
+    text-align: center;
+    height: 40px;
+    margin: auto;
+    width: 90%;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #63d1ce;
+}
